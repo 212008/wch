@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function productFib(prod) {
+            var n = 0;
+            var nPlus = 1;
+            while (n * nPlus < prod) {
+                nPlus = n + nPlus;
+                n = nPlus - n;
+            }
+            return [n, nPlus, n * nPlus === prod];
+        }
+        // 测试
+        console.log(productFib(999))
+    </script>
+</body>
+
+</html>
