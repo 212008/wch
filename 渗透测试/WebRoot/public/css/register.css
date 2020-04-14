@@ -1,0 +1,19 @@
+
+
+.msg{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    color: blue;
+    background-color: #D8B7E3;
+    font-style: italic;
+}
+.warp{
+    height: 60px;
+}
+.msg{
+    cursor: pointer;
+}

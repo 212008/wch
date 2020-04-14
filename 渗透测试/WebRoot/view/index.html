@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>web</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<!-- <link rel="icon" href="./assets/img/icon.ico" type="image/x-icon"/> -->
+	<link rel="stylesheet" href="../public/css/public.css">
+	<!-- Fonts and icons -->
+	<link rel="stylesheet" href="../public/css/index.css">
+	<script src="../public/js/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Lato:300,400,700,900"]},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['./assets/css/fonts.min.css']},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="../public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../public/css/atlantis.min.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="../public/css/demo.css">
+</head>
+<body data-background-color="dark">
+	<div class="wrapper">
+		<div class="main-header">
+			<!-- Logo Header -->
+			<div class="logo-header" data-background-color="dark2">
+				
+				<a href="index.html" class="logo">
+					这里是logo
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+				<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+				<div class="nav-toggle">
+					<button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+				</div>
+			</div>
+			<!-- End Logo Header -->
+
+			<!-- Navbar Header -->
+			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="dark" >
+				<div class="container-fluid">
+					<div class="collapse" id="search-nav">
+						<form class="navbar-left navbar-form nav-search mr-md-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<button type="submit" class="btn btn-search pr-1">
+										<i class="fa fa-search search-icon"></i>
+									</button>
+								</div>
+								<input type="text" placeholder="Search ..." class="form-control">
+							</div>
+						</form>
+					</div>
+					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center" >
+						<li class="nav-item toggle-nav-search hidden-caret">
+							<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
+								<i class="fa fa-search"></i>
+							</a>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link dropdown-toggle" href="#" >
+								<span>注册</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link" href="#">
+								<span>登录</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+								<div class="avatar-sm">
+									<img src="../public/picture/profile.jpg" alt="..." class="avatar-img rounded-circle">
+								</div>
+							</a>
+							<ul class="dropdown-menu dropdown-user animated fadeIn">
+								<div class="dropdown-user-scroll scrollbar-outer">
+									<li>
+										<div class="user-box">
+											<div class="avatar-lg"><img src="../public/picture/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
+											<div class="u-text">
+												<h4>用户名</h4>
+												<span>name</span>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">管理中心</a>
+										<a class="dropdown-item" href="#">个人主页</a>
+										<a class="dropdown-item" href="#">我的成就</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">设置</a>
+										<a class="dropdown-item" href="#">退出</a>
+									</li>
+								</div>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+		</div>
+
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-style-2" data-background-color="dark2">
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+					<!-- <div class="user">
+						<div class="avatar-sm float-left mr-2">
+							<img src="../public/picture/profile.jpg" alt="..." class="avatar-img rounded-circle">
+						</div>
+						<div class="info">
+							<a data-toggle="collapse">
+								<span>
+									用户名
+									<span class="user-level">用户组</span>
+								</span>
+							</a>
+							<div class="clearfix"></div>
+						</div>
+					</div> -->
+					<ul class="nav nav-primary">
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h "></i>
+								
+							</span>
+							<h3 >管理中心</h2>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>项目管理</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="components/avatars.html">
+											<span class="sub-item">项目大厅</span>
+										</a>
+									</li>
+									<li>
+										<a href="components/buttons.html">
+											<span class="sub-item">我的项目</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#sidebarLayouts">
+								<i class="fas fa-layer-group"></i>
+								<p>个人中心</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="sidebarLayouts">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="sidebar-style-1.html">
+											<span class="sub-item">我的发表</span>
+										</a>
+									</li>
+									<li>
+										<a href="overlay-sidebar.html">
+											<span class="sub-item">我的话题</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#forms">
+								<i class="fas fa-layer-group"></i>
+								<p>账户设置</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="forms">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="forms/forms.html">
+											<span class="sub-item">个人资料</span>
+										</a>
+									</li>
+									<li>
+										<a href="forms/forms.html">
+											<span class="sub-item">实名认证</span>
+										</a>
+									</li>
+									<li>
+										<a href="forms/forms.html">
+											<span class="sub-item">资金账户</span>
+										</a>
+									</li>
+									<li>
+										<a href="forms/forms.html">
+											<span class="sub-item">偏好设置</span>
+										</a>
+									</li>
+									<li>
+										<a href="forms/forms.html">
+											<span class="sub-item">密码修改</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<!-- <li class="mx-4 mt-2">
+							<a href="#" class="btn btn-primary btn-block"><span class="btn-label mr-2"> <i class="fa fa-heart"></i> </span>Buy Pro</a> 
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main-panel" style="height: auto; background: #e8edf0;">
+			<div class="content" style="height: auto;">
+				<div id="inner" class="page-inner" style="height: auto;">
+					<div class="inner">
+						<!-- 项目大厅↓ -->
+						<div class="inner-nav" >
+							<h3 class="clearFloat">项目大厅</h3>
+							<ul class="clearFloat">
+								<li><a href="#">全部</a></li>
+								<li><a href="#">普通</a></li>
+								<li><a href="#">高级</a></li>
+								<li><a href="#">公益SRC</a></li>
+								<li><a href="#">SRC</a></li>
+							</ul>
+						</div>
+						<div class="classification">
+							<ul>
+								<li>类型</li>
+								<li><a href="#">全部</a></li>
+								<li><a href="#">普通</a></li>
+								<li><a href="#">高级</a></li>
+								<li><a href="#">公益SRC</a></li>
+								<li><a href="#">SRC</a></li>
+							</ul>
+							<ul>
+								<li>时间</li>
+								<li><a href="#">全部</a></li>
+								<li><a href="#">短期</a></li>
+								<li><a href="#">长期</a></li>
+							</ul>
+						</div>
+						<div class="manage-bounties">
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<!-- 项目大厅↑ -->
+					</div>
+					<!-- 我的项目↓ -->
+					<div class="inner">
+						<div class="inner-nav" >
+							<h3 class="clearFloat">我的项目</h3>
+							<ul class="clearFloat">
+								<li><a href="#">全部</a></li>
+								<li><a href="#">普通</a></li>
+								<li><a href="#">高级</a></li>
+								<li><a href="#">公益SRC</a></li>
+								<li><a href="#">SRC</a></li>
+							</ul>
+						</div>
+						<div class="manage-bounties">
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+					</div>
+					<!-- 我的项目↑ -->
+					<!-- 个人资料↓ -->
+					<div class="inner">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--   Core JS Files   -->
+	<script src="../public/js/jquery.3.2.1.min.js"></script>
+	<script src="../public/js/popper.min.js"></script>
+	<script src="../public/js/bootstrap.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="../public/js/jquery.scrollbar.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="../public/js/atlantis.min.js"></script>
+
+	<!-- Atlantis DEMO methods, don't include it in your project! -->
+	<script src="../public/js/setting-demo.js"></script>
+	<script src="../public/js/demo.js"></script>
+	<script>
+		$('#lineChart').sparkline([102,109,120,99,110,105,115], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart2').sparkline([99,125,122,105,110,124,115], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart3').sparkline([105,103,123,100,95,105,115], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+		
+	</script>
+</body>
+</html>

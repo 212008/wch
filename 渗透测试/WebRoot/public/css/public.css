@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,.wrap{
+    height: 100%;
+    height: 100%;
+}
+.wrap>div,.wrap>div>div{
+    width: 100%;
+}
+.center{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clearFloat:after{
+    contain:"";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.clearFloat{
+    zoom: 1;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.center .warp .right{
+   background-color: aqua;
+}
+.right>input{
+    margin: 20px 0 20px 10px;
+    border: none;
+}
+.int{
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 2px 20px;
+    border: 0;
+    background-color: aquamarine;
+}
+.code{
+    width: 100px;
+    height: 30px;
+}
+.msg{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    color: blue;
+    background-color: #D8B7E3;
+    font-style: italic;
+}
+.warp{
+    height: 60px;
+}
+.msg{
+    cursor: pointer;
+}
