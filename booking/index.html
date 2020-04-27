@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <title>Booking.com </title>  
+        <!--[if lt IE 9]>
+          <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+	</head>
+	<body>
+		<!--头部-->
+		<!--导航-->
+		<div class="navbar navbar-default">
+			<div class="container" id="top" >
+				<!--logo-->
+				<div class="navbar-header">
+					<img src="img/857e24d682e37e1643fb09b3d17c4af26c4caec0.png"style="margin-top: 10px;" class="img-responsive" alt="Responsive image"/>
+				</div>
+				<!--导航栏-->
+				<div class="collapse navbar-right navbar-collapse" id="menu" style="margin-top: 10px;">
+					<a href="" style="margin: 0 0 0 30px; color: white;"  class="popover_trigger currency_va_middle" data-title="选择您使用的货币" >
+                                                      元
+                    </a>
+                    <a href="" style="margin: 0 0 30px 30px;"  class="popover_trigger" data-title="选择您使用的语言" data-google-track="Click/Action: index/header_lang_select_link_box" >
+				    	<img src="https://ac-r.static.booking.cn/static/img/flags/24/cn/b50a28ad0218953c0c5daed6a7efa724475c3ec3.png" />
+				    </a>
+				    <a href="" style="margin: 0 30px;" class="jq_tooltip popover-trigger header_wechat_qrcode" data-title="关注Booking.com官方微信号" data-node_tt_id="china_header_hover" >
+                        <svg class="bk-icon -fonticon-wechat" fill="#FFFFFF" height="16" width="19" viewBox="0 0 39 32" style="margin-top: 10px;">
+                            <path d="M13.2 0C4 0 0 6.2 0 11.2c0 6.6 4.9 9.2 4.9 9.2l-.7 3.9 3.8-2s4.1 1.3 6.5.7c-1.6-7.8 5.2-12.7 11.7-12.5h.5C26 7.4 23.5 0 13.2 0zM8.5 9.3c-1 0-1.8-.8-1.8-1.8s.8-1.8 1.8-1.8 1.8.8 1.8 1.8-.8 1.8-1.8 1.8zm9.7 0c-1 0-1.8-.8-1.8-1.8s.8-1.8 1.8-1.8 1.8.8 1.8 1.8-.8 1.8-1.8 1.8z"></path>
+                            <path d="M38.7 20.6c0-5.1-5-9.3-11.4-9.5h-.5c-6.5 0-11.8 4.3-11.8 9.5 0 6 5.1 9.2 12 9.5 1.4 0 3.3-.2 4.6-.4l3.7 2.3-.1-4.1c2.2-1.7 3.5-4.6 3.5-7.3zM23 18.9c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.7 1.5-1.5 1.5zm7.7 0c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5c.9 0 1.5.7 1.5 1.5s-.6 1.5-1.5 1.5z"></path>
+                        </svg>
+                    </a>
+					<button >
+				        <a href="">登录</a>
+				    </button>
+				    <button >
+					    <a href="">注册</a>
+				    </button>
+				    <span class="maxe">
+				        <a href="">上线我的住宿</a>
+				    </span>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+					    <ul class="list-unstyled list-inline">
+				            <li><img src="img/imga/build.png"/><a href="机场租车.html">住宿</a></li>
+				            <li><img src="img/imga/plan.png"/><a href="手机版.html">机票</a></li>
+				            <li><img src="img/imga/car.png"/><a href="租车.html">租车</a></li>
+				            <li><img src="img/imga/car.png"/><a href="index.html">机场租车</a></li>
+			            </ul>
+					</div>
+		        </div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>缤纷四季优惠搜不停</h2>
+					<p style="font-size: 20px;">从舒适的乡村民宿到时髦的都市公寓</p>
+				</div>
+				<div class="row" >
+					<div class="col-md-6 col-sm-6">
+						<input type="text" style="border: 2px solid #FEBB02;width: 120%;height: 50px;padding-left: 50px;" value="目的地" />
+					</div>
+					<div class="col-md-2 col-sm-2" >
+						<input type="text" style="border: 2px solid #FEBB02;width: 120%;height: 50px;padding-left: 50px;" value="入住 - 退房" />
+					</div>
+					<div class="col-md-3 col-sm-3" >
+				        <input type="text" style="border: 2px solid #FEBB02;width: 120%;height: 50px;padding-left: 50px;" value="2位成人·0名儿童" />
+					</div>
+					<div class="col-md-1 col-sm-1" >
+						<button id="header-bottom4" style="border: 2px solid #FEBB02;width: 120%;height: 50px;background: #00387E;color: #FFFFFF;">搜索</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<lable><input type="checkbox" style="margin-right: 20px;width: 20px;height: 20px;"/><b >我是出差</b></lable>
+					</div>
+				</div>
+			</div>
+		</div> 
+			<!--主体-->
+		<!--1.轮播图-->
+		<div class="container">
+			<div class="row" style="margin-top: 50px;">
+				<div class="col-sm-12">
+					<p style="font-size: 2em;">更多独特住宿,让假期充满格调</p>
+				</div>
+			</div>
+				<!--5轮播-->
+			  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                  	<div class="item active">
+                  		<div class="row">
+                      	<div class="col-md-4 col-sm-6">
+                      	    <img src="img/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg" alt="Responsive image">                              
+                            <h3>公寓</h3>
+                            <h6>487,657见公寓</h6>
+                        </div>
+                      	<div class="col-md-4 col-sm-6">
+                      	 	<img src="img/9673cd1b55cbc1e1cdaeae09d87d16aa9d84d5f7.jpg" alt="Responsive image">                               
+                            <h3>度假村</h3>
+                            <h6>487,657度假村</h6>
+                        </div>
+                      	<div class="col-md-4 col-sm-6">
+                      	 	<img src="img/6f87c6143fbd51a0bb5d15ca3b9cf84211ab0884.jpg" alt="Responsive image">                  
+                            <h3>别墅</h3>
+                             <h6>487,657别墅</h6>
+                        </div>
+                      	</div>
+                  	</div>
+                     <div class="item">
+                      	 <div class="row">
+                      	 	<div class="col-md-4 col-sm-6">
+                      	 		<img src="img/5e1fd9cd716f4825c6c7eac5abe692c52cc64516.jpg" alt="Responsive image">
+                                   <h3>木屋</h3>
+                                   <h6>487,657见木屋</h6>
+                            </div>
+                      	 	<div class="col-md-4 col-sm-6">
+                      	 		<img src="img/8ee014fcc493cb3334e25893a1dee8c6d36ed0ba.jpg" alt="Responsive image">                                
+                                   <h3>乡村别墅</h3>
+                                   <h6>487,657乡村别墅</h6>
+                            </div>                    	 	
+                      	    <div class="col-md-4 col-sm-6">
+                      	 		<img src="img/a6a4a3f904284337c187771d94a4bb6169b168d7.jpg" alt="Responsive image">
+                                <h3>豪华帐篷</h3>
+                                <h6>487,657豪华帐篷</h6>
+                            </div>
+                      	 	</div>
+                      	</div>
+                      
+                   </div>
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                       <span class="glyphicon glyphicon-chevron-left" ></span>
+                       <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" ></span>
+                        <span class="sr-only">Next</span>
+                  </a>
+                </div>
+			</div>
+		<!--2.图片主体-->
+			<!--三小图-->
+		<div class="container">
+			<div class="row">
+				<h2>精彩下一站,灵感这里找</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<img id="anewer" src="img/29920094.webp" class="img-responsive" alt="Responsive image"/>
+					<div id="tair">
+						<h3>情迷美利坚|美妙自然风光</h3>
+						<h5>如果你不曾到过美国，不曾为其壮丽的大自然感动过，一定要收下这篇旅行者攻略</h5>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<img id="anewer" src="img/30796666.webp" class="img-responsive" alt="Responsive image"/>
+					<div id="tair">
+						<h3>澳大利亚不曾错过的自然之美</h3>
+						<h5>在这些驴友们甄选的人气目的地，发现澳大利亚令人惊叹的自然美景</h5>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<img id="anewer" src="img/22859079.webp" class="img-responsive" alt="Responsive image"/>
+					<div id="tair">
+						<h3>咖啡狂人的旅行宝典</h3>
+						<h5>6大终极目的地，只为那一口馥郁香醇</h5>
+					</div>
+				</div>
+			</div>
+			<!--两大图-->
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-md-6 col-sm-12">
+					<img id="anewer" src="img/29857283.webp" class="img-responsive" alt="Responsive image"/>
+					<div id="tair">
+						<h3>7块蛋糕环游世界</h3>
+						<h5>以地名命名的美味蛋糕，边走边吃不怕胖</h5>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<img id="anewer" src="img/29987677.webp" class="img-responsive" alt="Responsive image"/>
+					<div id="tair">
+						<h3>遇见欧若拉，全球十大极光观赏地</h3>
+						<h5>捕捉北极光的季节即将到来。根据全球路行者点评，为你推荐理想观赏地</h5>
+					</div>
+				</div>
+			</div>
+		<!--图文结合部分-->
+		<div class="container">
+			<div class="row" style="margin-top: 50px;">
+				<h3>不仅有酒店...还有更多度假屋和公寓等你体验这份舒适 </h3>
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                       <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                       <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                       <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active ">
+                        	<div class="col-md-3 col-sm-6">
+                        		<img src="img/97644401.jpg" class="img-responsive" alt="Responsive image"/>
+                                <div class="row">
+                                   <h4>老城公寓酒店</h4>
+                                   <h6>克拉科夫</h6>
+                                   <h5>577元起</h5>
+                                </div>
+                        	</div>
+                      	    <div class=" item col-md-3 col-md-6">
+                      	    	<img src="img/82901489.jpg" class="img-responsive" alt="Responsive image"/>
+                      	    	<div class="row">
+                                   <h4>老城公寓酒店</h4>
+                                   <h6>克拉科夫</h6>
+                                   <h5>577元起</h5>
+                                </div>
+                      	    </div>
+                            <div class=" item col-md-3 col-md-6">
+                      	    	<img src="img/73715592.jpg" class="img-responsive" alt="Responsive image"/>
+                      	    	<div class="row">
+                                   <h4>老城公寓酒店</h4>
+                                   <h6>克拉科夫</h6>
+                                   <h5>577元起</h5>
+                                </div>
+                      	    </div>
+                      	    <div class=" item col-md-3 col-md-6">
+                      	    	<img src="img/88692583.jpg"/ class="img-responsive" alt="Responsive image">
+                      	    	<div class="row">
+                                   <h4>老城公寓酒店</h4>
+                                   <h6>克拉科夫</h6>
+                                   <h5>577元起</h5>
+                                </div>
+                      	    </div>
+                      	</div>
+                      	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+				</div>
+		   <div class="row" style="margin-top: 50px;margin-bottom: 20px;">
+			<!--两开图-->
+			<div class="col-md-6 col-sm-12">
+				<img src="img/683865.webp" class="img-responsive" alt="Responsive image"/>
+			    <div id="fiox">
+				   <h3>西安</h3>
+				   <img src="img/b50a28ad0218953c0c5daed6a7efa724475c3ec3.png"/>
+				   <h5>1,135家住宿</h5>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="img/683768.webp" class="img-responsive" alt="Responsive image"/>
+				<div id="fiox">
+				  <h3>杭州</h3>
+				  <img src="img/b50a28ad0218953c0c5daed6a7efa724475c3ec3.png"/>
+				  <h5>882家住宿</h5>
+				</div>
+			</div>
+		</div>
+		<div class="row"style="margin-bottom: 20px;">
+			<!--三开图-->
+			<div class="col-md-4 col-sm-12">
+				<img src="img/683677.webp" class="img-responsive" alt="Responsive image"/>
+				<div id="fiax">
+				   <h3>北京</h3>
+				   <img src="img/b50a28ad0218953c0c5daed6a7efa724475c3ec3.png"/>
+				   <h5>1,696家住宿</h5>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<img src="img/683830.webp" class="img-responsive" alt="Responsive image"/>
+				<div id="fiax">
+				   <h3>上海</h3>
+				   <img src="img/b50a28ad0218953c0c5daed6a7efa724475c3ec3.png"/>
+				   <h5>2,344家住宿</h5>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<img src="img/674774.webp" class="img-responsive" alt="Responsive image"/>
+				<div id="fiax">
+				   <h3>香港</h3>
+				   <img src="img/5020b67fbdc1f4376b3330dfeb1a6cd4a4608847.png"/>
+				   <h5>833家住宿</h5>
+				</div>
+			</div>
+		</div>
+		<!--字体部分-->
+		<div class="row">
+			<h2>热门目的地</h2>
+				<!--按钮-->
+			<div id="anniu">
+				<button>
+					<p>区域</p>
+				</button>
+				<button>
+					<p>城市</p>
+				</button>
+				<button>
+					<p>周边地标/景点</p>
+				</button>
+				<div id="caues"></div>
+			</div>	
+			<div id="mou">
+				<div class="col-md-5">
+					<div class="col-md-6 col-sm-6">
+						<ul class="list-unstyle">
+							<li><a>天津地区</a></li>
+							<li>549家住宿</li>
+							<li><a>兰卡威</a></li>
+							<li>619家住宿</li>
+							<li><a>苏梅岛</a></li>
+							<li>2,095家住宿</li>
+							<li><a>桑佛州</a></li>
+							<li>2,319家住宿</li>
+						</ul>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<ul class="list-unstyle">
+							<li><a>登嘉楼州</a></li>
+							<li>570家住宿</li>
+							<li><a>曼谷</a></li>
+							<li>4,208家住宿</li>
+							<li><a>北京地区</a></li>
+							<li>2379家住宿</li>
+							<li><a>民丹岛</a></li>
+							<li>54家住宿</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="col-md-6 col-sm-6">
+						<ul class="list-unstyle">
+							<li><a>巴厘岛</a></li>
+						    <li>11,634家住宿</li>
+						    <li><a>尼亚加拉瀑布</a></li>
+						    <li>234家住宿</li>
+						    <li><a>普吉府</a></li>
+						    <li>4,444家住宿</li>
+						    <li><a>金马伦高原</a></li>
+						    <li>567家住宿</li>
+						</ul>
+						
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<ul class="list-unstyle">
+							<li><a>澎湖县</a></li>
+						    <li>345家住宿</li>
+						    <li><a>台东</a></li>
+						    <li>977家住宿</li>
+						    <li><a>圣托里尼</a></li>
+						    <li>1,556家住宿</li>
+						    <li><a>马六甲</a></li>
+						    <li>1,789家住宿</li>
+						</ul>
+						
+					</div>
+				</div>
+				<div class="col-md-2">
+					<ul class="list-unstyle">
+						<li><a>福建</a></li>
+					    <li>1,346家住宿</li>
+					    <li><a>巴淡岛</a></li>
+					    <li>269家住宿</li>
+					    <li><a>槟城州</a></li>
+					    <li>1,988家住宿</li>
+					</ul>
+				</div>
+			</div>
+		  </div>
+		</div>
+		<!--主体尾部-->
+		<div class="container">
+		 <div class="row" >
+		 	<div id="mous">
+		 		<div class="col-md-2 col-sm-2">
+		 			<p>探索目的地</p>
+		 		</div>
+		 		<div class="col-md-10 col-md-10">
+		 			<div class="collapse navbar-right navbar-collapse">
+		 		      <nav aria-label="Page navigation">
+                        <ul class="pagination pagination-lg">
+                           <li><a href="#">1</a></li>
+                           <li><a href="#">2</a></li>
+                           <li><a href="#">3</a></li>
+                           <li><a href="#">4</a></li>
+                           <li><a href="#" aria-label="Next">
+                              <span>&raquo;</span></a></li>
+                        </ul>
+                      </nav>
+		 		   </div>
+		 		</div>
+		 	</div>
+		    <div class="col-md-2 col-sm-4"> 
+		    	<img src="img/e4f002b9907a13a55b4e10b85fdd5d8ea436eb2d.jpg" class="img-responsive" alt="Responsive image"/>
+		   	    <div class="carousel-caption">
+		   	  	    <p id="cax">休闲,购物,餐厅,一切...</p>
+		   	    </div>
+		   	</div>
+		   	<div class="col-md-2 col-sm-4">
+		   		<img src="img/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg" class="img-responsive" alt="Responsive image"/>
+		   		<div class="carousel-caption">
+		   	  	    <p id="cax">休闲,购物,餐厅,一切...</p>
+		   	    </div>
+		   	</div>
+		   	<div class="col-md-2 col-sm-4">
+		   		<img src="img/a6a4a3f904284337c187771d94a4bb6169b168d7.jpg" class="img-responsive" alt="Responsive image"/>
+		   		<div class="carousel-caption">
+		   	  	    <p id="cax">休闲,购物,餐厅,一切...</p>
+		   	  </div>
+		   	</div>
+		   	<div class="col-md-2 col-sm-4">
+		   		<img src="img/6d40bef46964b8841a84cd88793fc8f0fa6663d9.jpg" class="img-responsive" alt="Responsive image"/>
+		   		<div class="carousel-caption">
+		   	  	    <p id="cax">休闲,购物,餐厅,一切...</p>
+		   	    </div>
+		   	</div>
+		   	<div class="col-md-2 col-sm-4">
+		   		<img src="img/9499c7a4ab5a599218da6d49422dae03384013e3.jpg" class="img-responsive" alt="Responsive image"/>
+		   		<div class="carousel-caption">
+		   	  	    <p id="cax">休闲,购物,餐厅,一切...</p>
+		   	    </div>
+		   	</div>
+		   	<div class="col-md-2 col-sm-4">
+		   		<img src="img/6ffa05069b50124c993f00c998f1dfc66999c93f.jpg" class="img-responsive" alt="Responsive image"/>
+		   		<div class="carousel-caption">
+		   	  	    <p id="cax"> 休闲,购物,餐厅,一切...</p>
+		   	    </div>
+		   	</div>	   	  
+		   </div>	
+		  </div>
+		  </div>
+		<!--底部-->
+		<!--底部列表文字-->
+		<div class="container">
+			<div class="row" style="background-color:#00387E ;margin-top: 50px;">
+						<!--深色部分-->      
+				<div class="col-md-5 col-sm-12" style="background-color: white;margin-top: 50px;margin-left: 20px;border-radius: 5%;">
+					<h3>24小时客服帮助您安心出行</h3>
+					<h6>订单有问题?我们来帮您!</h6>
+						
+				 <div class="row">								
+					<div class="col-sm-6">
+						<h4>中文客服热线</h4>
+						<a><h4>点击了解更多客服帮助</h4></a>
+					</div>
+					<div class="col-sm-6">
+					    <h4>常见问题</h4>
+						<h4>去<a>帮助中心</a>看看</h4>
+					</div>
+				 </div>
+			   </div>
+			   <div class="col-md-1" style="background-color: #00387E;"></div>
+			    <div class="col-md-5 col-sm-12" style="background-color: white;margin-top: 50px;border-radius: 5%;">
+					<h3>方便又省钱!</h3>
+					<h6>立即注册,即可获取优惠好价!</h6>
+			        <div class="row">
+				        <div class="col-sm-10 ">
+					       <input type="email" name="myemail" id="myemail" value="您的电子邮箱地址" />
+				        </div>
+			            <div class="col-sm-2 ">
+					        <button style="width: 50px;height: 30px;">订阅!</button>
+				        </div>
+				    </div>
+			        <div class="col-xs-12 ">
+				        <lable>
+					        <input type="checkbox" style="margin: 15px 0 15px 0;"/>请同时给我发送Booking.com免费APP下载链接
+				        </lable>
+			        </div>
+			    </div>
+			    <div class="col-md-1" style="background-color: #00387E;"></div>
+			    <div class="row" style="text-align: center;">
+				    <div class="col-md-12">
+				    	<button style="border-radius: 5%;line-height: 26px;margin: 10px 0 10px -40px;">
+					    	<p style="text-align: center;"><a >上线我的住宿</a></p>
+			    		</button>
+		    		</div>
+		    		<div class="col-md-12 col-sm-12" style="color: white;">
+		    			<ul class="list-unstyled list-inline">
+						<li><u>平板电脑视图</u></li>
+			    			<li><u>手机版视图</u></li>
+			    			<li><u>您的账户</u></li>
+			    			<li><u>在线修改订单</u></li>
+			    			<li><u>联系客服</u></li>
+			    			<li><u>成为分销合作伙伴</u></li>
+			    			<li><u>Booking.com商旅服务</u></li>
+			    			<li><u>关注Booking.com官方微信号</u></li>
+			    		</ul>
+			    	</div>
+		    	</div>
+			</div>
+			<!--底部小字-->
+		</div>
+			<div class="row" style="margin-top: 30px;">
+				<div class="col-md-5 col-sm-4" style="margin-top: -30px;">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-unstyled">
+								<a><li>国家/地区</li>
+								<li>区域</li>
+								<li>城市</li>
+								<li>区</li>
+								<li>酒店</li>
+								<li>机场</li>
+								<li>周边地标/景点</li></a>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-unstyled">
+								<a><li>度假屋</li>
+								<li>公寓</li>
+								<li>度假村</li>
+								<li>别墅</li>
+								<li>青旅</li>
+								<li>住宿加早餐旅馆</li>
+								<li>旅馆</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-12" style="margin-top: -30px;">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<ul class="list-unstyled">
+								<a><li>全球独特住宿</li>
+								<li>所有目的地</li>
+								<li>客人点评</li>
+								<li>游记攻略</li></a>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<a><ul class="list-unstyled">
+								<li>租车服务</li>
+								<li>订机票</li>
+								<li>餐位预定</li>
+								<li>Booking.com旅行代理机构中心</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-12">
+					<div id="text1">
+						<ul class="list-unstyled">
+							<a><li>关于Booking.com</li>
+							<li>提供网络反馈</li>
+							<li>客服帮助</li>
+							<li>酒店自助平台</li>
+							<li>Careers</li>
+							<li>新闻中心</li>
+							<li>投资者关系</li>
+							<li>条款和条件</li>
+							<li>隐私和cook声明</li>
+							<li>其它问题查询</li>
+							<li>价格更放心</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--底部小字-->
+			<div class="row" >
+				<div class="row" style="text-align: center;margin-top: 30px;">
+					<h4>不管你是谁，想要住哪种类型的住宿，我们都能满足你的需求。我们网站上共有2,840万个房源， 包括585万家度假屋、公寓和其他独特的住宿， 遍布全球229个国家和地区的 14万个目的地。
+					 Booking.comB.V.总部位于荷兰阿姆斯特丹，由位于全球<a>70个国家和地区的 198个办公室</a>提供支持。</h4>
+				</div>
+				<div class="text" style="text-align: center;">
+					<h4 align="center"><a>登录后台</a></h4>
+				</div>
+				<div class="col-sm-12">
+				   <p style="text-align: center;opacity: 0.7;">版权 © 1996–2019 Booking.com™. 版权所有.</p><br />
+				   <div class="container">
+				   	<p style="text-align: center;opacity: 0.7;" >Booking.com隶属于Booking Holdings Inc.，该集团是深受全球用户好评的在线旅行及周边服务供应商。</p>
+				   </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+				    <img src="img/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png" class="img-responsive" alt="Responsive image"/>
+			    </div>
+			    <div class="col-md-2">
+				    <img src="img/f80e129541f2a952d470df2447373390f3dd4e44.png" class="img-responsive" alt="Responsive image"/>
+			    </div>
+			    <div class="col-md-2">
+				    <img src="img/83ef7122074473a6566094e957ff834badb58ce6.png" class="img-responsive" alt="Responsive image"/>
+			    </div>
+			    <div class="col-md-2">
+				    <img src="img/a4b50503eda6c15773d6e61c238230eb42fb050d.png" class="img-responsive" alt="Responsive image"/>				    
+			    </div>
+				<div class="col-md-2">
+				    <img src="img/3d4f6ca8a45a376f2193f1e88d1ac8369f585e76.png" class="img-responsive" alt="Responsive image"/>
+			    </div>
+			    <div class="col-md-2">
+				   <img src="img/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png" class="img-responsive" alt="Responsive image"/>
+			    </div>		
+			</div>
+		</div>
+    	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	</body>
+</html>

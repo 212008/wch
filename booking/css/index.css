@@ -1,0 +1,171 @@
+.body{
+	padding: 0px;
+	margin: 0px;
+}
+#top{
+	background: #00387e;
+	/*width: 100%;*/
+}
+#top>div.navbar-header img{
+	width: 200px;
+	height: 30px;
+}
+#top button{
+	display: inline-block;
+	background: #FFF;
+	width: 45px;
+	height: 35px;
+	float: right;
+	margin: 0 20px;
+	border-radius: 10%;
+}
+#top button a{
+	display: inline-block;
+	background: #FFFFFF;
+	color: #0F0F0F;
+	font-size: 14px "simhei";
+	text-align: center;
+	line-height: 30px;
+}
+.maxe{
+	display: inline-block;
+	width: 96px;
+	height: 35px;
+	border: 1px solid white;
+	border-radius: 10%;
+}
+.maxe a{
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 5px;
+}
+.row{
+	margin:50px 0 0 0;
+}
+.row li{
+	margin: 10px 5px -10px 20px;
+}
+.row ul li img{
+	height: 24px;
+	width: 24px;
+}
+.row ul li a{
+	color: white;
+	line-height: 30px;
+}
+#tair{
+	position: relative;
+	float: left;
+	margin-top: -100px;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+#fiox{
+	position: relative;
+	float: left;
+	margin-top: -280px;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+#fiax{
+	position: relative;
+	float: left;
+	margin-top: -180px;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+#header-bottom.n1{
+	border: 2px;
+	border-color: yellow;
+}
+#header-bottom{
+	border: 5px solid yellow;
+}
+.row {
+	margin-top: 30px;
+}
+.header-bottom{
+	border: 1px solid #FEBB02;
+}
+.header-bottom1{
+	display: inline-block;
+	width: 542px;
+	height: 52px;
+}
+.row label{
+	width: 84px;
+	height: 20px;
+	font-size: 20px;
+	margin: 0 10px;
+}
+.row label input b{
+	font-size: 20px simhei;
+	text-align: center;
+	line-height: 20px;
+	opacity: 0.6;
+}
+.row ul a:hover{
+	color: #FEBB02;
+}
+#anewer:hover{
+	transform: scale(1.1);
+	transition: all 0.5s linear;
+	box-sizing: border-box;
+}
+#anniu button{
+	display: inline-block;
+	background: #FFFFFF;
+	border: 0;
+}
+/*#anniu button p{
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+}*/
+#anniu button p:hover{
+	display: inline-block;
+	width: 135%;
+	height: 40px;
+	background-color: #286090;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+#caues{
+	border: 1px solid #00387E;
+	width: 100%;
+	height: 1px;
+}
+#mou li{
+	list-style: none;
+	margin-left: -60px;
+}
+#mou a{
+	color: #00387E;
+}
+#mou a:hover{
+	color: #FEBB02;
+}
+#mous a{
+	color: #00387E;
+}
+#mous p{
+	font-size: 20px simhei;
+	margin-top: 50px;
+}
+#mous li{
+	border-radius: 5%;
+	margin: 0 10px;
+}
+#cax{
+	width: 160px;
+	height: 30px;
+	background-color: #222222;
+	opacity: 0.5;
+	text-align: center;
+	line-height: 30px;
+	margin-top: -56px;
+	margin-left: -23px;
+}
+
