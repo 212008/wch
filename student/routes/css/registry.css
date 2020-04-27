@@ -1,0 +1,105 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 100%;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.message.warning {
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 0 0 0 3px rgba(56, 41, 32, 0.25);
+    margin: 9% auto 0;
+    width: 26%;
+}
+
+.login-head {
+    padding: 2em 0;
+    background: #6D4A70;
+    position: relative;
+}
+
+.login-head h1 {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 0 23px;
+}
+
+form {
+    padding: 3em 2em;
+    background: #F2F2F2;
+
+}
+
+form li {
+    border: 2px ridge rgba(187, 185, 189, 0.11);
+    border-radius: 0.3em;
+    list-style: none;
+    margin-bottom: 12px;
+    background: #F0EEF0;
+
+}
+
+input{
+    font-family: 'Droid Sans', sans-serif;
+    width: 90%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    color: #B8B8B8;
+    font-size: 20px;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+input:hover{
+    color: #9E61A3;
+
+}
+.submit h4 a:hover {
+    color: #8D4294;
+}
+
+/*************************/
+.submit {
+    padding-top: 3em;
+}
+
+input[type="button"] {
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 12px 0px;
+    width: 35%;
+    font-size: 18px;
+    background: #6C496F;
+    border: 2px solid #6C496F;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+input[type="button"]:hover {
+    background: #fff;
+    color: #6C496F;
+    border: 2px solid #6C496F;
+}
+
+.message {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.warning {
+    text-align: center;
+    margin: 14% auto;
+    width: 280px;
+    background: rgba(82, 97, 97, 0.68);
+    border-radius: 6px;
+}

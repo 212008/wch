@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../routes/css/public.css">
+    <link rel="stylesheet" href="../routes/css/member.css">
+    <script src="../routes/vue/vue.js"></script>
+    <script src="../routes/js/ajax.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="inner">
+            <ul style="margin-bottom: 30px;">
+                <li>
+                    <span>序号</span>
+                    <span>姓名</span>
+                    <span>学号</span>
+                    <span>手机号</span>
+                </li>
+                <li v-for='(i,index) in arr' >
+                    <span>{{index+1}}</span>
+                    <span @click='btn(i.a_student_num)'>{{i.a_uname}}</span>
+                    <span @click='btn(i.a_student_num)'>{{i.a_student_num}}</span>
+                    <span @click='btn(i.a_student_num)'>{{i.a_phone}}</span>
+                    <span @click='a(i.a_student_num)'>修改</span>
+                    <span @click='c(i.a_student_num)'>成绩</span>
+                    <span @click='b(i.a_student_num)'>删除</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../routes/js/member.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>管理员登录</title>
+	<link href="../routes/css/manage.css" rel="stylesheet" type="text/css">
+	<link href="../routes/css/public.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="login">
+		<div class="logo"></div>
+		<div class="login_form">
+			<div class="user">
+				<input class="text_value" value="" name="username" type="text" id="username">
+				<input class="text_value" value="" name="password" type="password" id="pwd">
+			</div>
+			<button class="button" id="submit" type="submit">登录</button>
+		</div>
+		<div id="tip"></div>
+	</div>
+	<script>
+		document.getElementById('submit').onclick = function(){
+			var username = document.getElementById('username').value;
+			var pwd = document.getElementById('pwd').value;
+			if(username == '1816212178' && pwd == '123'){
+				location.href = 'manage_home.html';
+			}
+		}
+	</script>
+</body>
+
+</html>

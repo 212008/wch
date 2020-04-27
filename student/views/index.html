@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../routes/css/public.css">
+    <link rel="stylesheet" href="../routes/css/index.css">
+    <script src="../routes/jQuery/jquery.min.js"></script>
+    <script src="../routes/vue/vue.js"></script>
+    <script src="../routes/js/ajax.js"></script>
+</head>
+
+<body>
+    <div class="inner">
+        <div class="inner_home">
+            <div class="inner_home_header">
+                学员 > 个人主页
+            </div>
+            <table class="table" width="100%" cellspacing="0px">
+                <tr>
+                    <td class="col1">姓名:</td>
+                    <td class="col2">{{arr.a_uname}}</td>
+                    <td class="col1">身份证号:</td>
+                    <td class="col3">****************</td>
+                    <td class="col3" rowspan="8">照片</td>
+                </tr>
+                <tr>
+                    <td class="col1">性别:</td>
+                    <td class="col2">{{arr.a_gander}}</td>
+                    <td class="col1">民族:</td>
+                    <td class="col3">{{arr.a_nation}}</td>
+                </tr>
+                <tr>
+                    <td class="col1">出生日期:</td>
+                    <td class="col2">{{arr.a_birthday}}</td>
+                    <td class="col1">曾获奖项:</td>
+                    <td class="col3">{{arr.a_award}}</td>
+                </tr>
+                <tr>
+                    <td class="col1">学校:</td>
+                    <td class="col2">河南职业技术学院</td>
+                    <td class="col1">院系:</td>
+                    <td class="col3">信息工程学院</td>
+                </tr>
+                <tr>
+                    <td class="col1">专业:</td>
+                    <td class="col2">软件技术</td>
+                    <td class="col1">班级:</td>
+                    <td class="col3">{{arr.a_class}}</td>
+                </tr>
+                <tr>
+                    <td class="col1">班级职务:</td>
+                    <td class="col2">{{arr.a_position}}</td>
+                    <td class="col1">政治面貌:</td>
+                    <td class="col3">{{arr.a_status}}</td>
+                </tr>
+                <tr>
+                    <td class="col1">手机号:</td>
+                    <td class="col2">{{arr.a_phone}}</td>
+                    <td class="col1">第二联系号码:</td>
+                    <td class="col3"></td>
+                </tr>
+                <tr>
+                    <td class="col1">QQ:</td>
+                    <td class="col2">{{arr.a_qq}}</td>
+                    <td class="col1">电子邮箱:</td>
+                    <td class="col3">{{arr.a_qq}}@qq.com</td>
+                </tr>
+                <tr>
+                    <td class="col1">联系地址:</td>
+                    <td class="col2" colspan="4"></td>
+                </tr>
+                <tr>
+                    <td class="col1">优点:</td>
+                    <td class="col2" colspan="4">{{arr.a_merit}}</td>
+                </tr>
+                <tr>
+                    <td class="col1">缺点:</td>
+                    <td class="col2" colspan="4">{{arr.a_defect}}</td>
+                </tr>
+                <tr>
+                    <td class="col1" colspan="5"> 
+                        <a href="javascript:;" class="btn" id="btn">确定</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="../routes/js/index.js"></script>
+</body>
+
+</html>

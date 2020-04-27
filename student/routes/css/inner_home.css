@@ -1,0 +1,55 @@
+.inner {
+    width: 1100px;
+}
+
+.inner_left {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #609fdf;
+    padding: 0 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+
+.inner_left>span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-image: url(../img/wjj.png);
+    background-size: 100%;
+    float: left;
+}
+
+.inner_left>h3 {
+    margin-left: 10px;
+}
+
+ul>li {
+    display: block;
+    width: 1090px;
+    padding: 13px 5px;
+    border-bottom: 1px dashed red;
+}
+
+.inner>ul>li>i {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+    transform: rotate(45deg);
+    margin-top: 6px;
+    margin-right: 8px;
+}
+.inner>ul>li>a{
+    color: black;
+}
+.inner>ul>li>a:hover{
+    color: #609fdf;
+}
+.inner>ul>li>span{
+    display: block;
+    margin-right: 5px;
+}
